@@ -3,17 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Game</title>
+    <title>RedGamer's Rust Hub | Survive, Steal, Dominate</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
-    <div class="quiz-container">
-        <h1>Quiz Game</h1>
-        <div id="quiz"></div>
-        <button id="submit">Submit Answer</button>
-        <div id="results"></div>
-    </div>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">🔴 RedGamer's Rust Hub</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-rust">About Rust</a></li>
+                <li><a href="#redgamer">RedGamer</a></li>
+                <li><a href="#quiz" class="quiz-btn">Red + Rust Quiz</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to the Ultimate Rust Experience</h1>
+            <p class="tagline">Where RedGamer Steals Your Loot & Your Sanity</p>
+            <a href="#quiz" class="cta-button">Take the Red + Rust Quiz 🎮</a>
+        </div>
+    </section>
+
+    <section id="about-rust" class="section">
+        <div class="container">
+            <h2>What is Rust?</h2>
+            <div class="rust-info">
+                <div class="info-card">
+                    <h3>🏝️ Survival at Its Core</h3>
+                    <p>Rust is a multiplayer survival game where you start with nothing but a rock and a torch. Your goal? Survive the harsh environment, wild animals, and most importantly - other players who want to take everything you've built.</p>
+                </div>
+                <div class="info-card">
+                    <h3>🔨 Build & Craft</h3>
+                    <p>Gather resources, craft weapons, and build massive bases to protect your loot. From wooden shacks to fortified metal compounds, your creativity is your defense.</p>
+                </div>
+                <div class="info-card">
+                    <h3>⚔️ Raid or Be Raided</h3>
+                    <p>The most intense part of Rust - raiding other players' bases to steal their hard-earned loot. Use explosives, guns, and strategy to break into enemy compounds. But watch out, because they're planning to raid YOU too.</p>
+                </div>
+                <div class="info-card">
+                    <h3>🎯 No Rules, No Mercy</h3>
+                    <p>Rust is known for its toxic, chaotic gameplay. Form alliances, betray friends, talk trash, and dominate the server. It's not just a game - it's psychological warfare with guns.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="redgamer" class="section dark-section">
+        <div class="container">
+            <h2>Meet RedGamer: The Brainrot Raider 🔴</h2>
+            <div class="redgamer-content">
+                <div class="redgamer-image">
+                    <div class="image-placeholder">🎮</div>
+                </div>
+                <div class="redgamer-bio">
+                    <h3>The Legend of RedGamer</h3>
+                    <p>RedGamer isn't just a player - he's a force of nature in the Rust universe. Known for his absolutely UNHINGED raiding strategies and non-stop brainrot commentary, RedGamer has become a legend on every server he touches.</p>
+                    
+                    <h4>RedGamer's Playstyle: Steal Everything Brainrot Mode 🧠💀</h4>
+                    <ul class="playstyle-list">
+                        <li><strong>The 3AM Raid Special:</strong> When normal players sleep, RedGamer strikes. Your base? Gone. Your loot? His now. Your sanity? Destroyed.</li>
+                        <li><strong>Door Camp Master:</strong> RedGamer will sit outside your base for HOURS just to get that sweet revenge kill. It's not about the loot anymore - it's about sending a message.</li>
+                        <li><strong>Brainrot Tactics:</strong> Screaming into proximity chat, blasting memes through voice chat, and psychological warfare that would make military generals weep. He doesn't just steal your loot - he steals your will to play.</li>
+                        <li><strong>The Naked Run:</strong> Sometimes RedGamer doesn't even need gear. He'll spawn on the beach with nothing and somehow end up with an AK and your entire inventory 10 minutes later.</li>
+                        <li><strong>Trash Talk Legend:</strong> His post-raid messages are so toxic they should come with a hazmat suit. "GG EZ" is his love language.</li>
+                        <li><strong>Zero Chill Philosophy:</strong> If it exists on the server, RedGamer will find it, raid it, and take everything down to the last wood plank. No base is safe. No loot is sacred.</li>
+                    </ul>
+
+                    <div class="quote-box">
+                        <p>"I don't play Rust to make friends. I play Rust to make enemies cry." - RedGamer</p>
+                    </div>
+
+                    <h4>Famous RedGamer Moments 🏆</h4>
+                    <ul class="moments-list">
+                        <li>Raided a 10-man clan's base SOLO using only 12 satchel charges and pure audacity</li>
+                        <li>Got banned from 3 servers for "excessive emotional damage to other players"</li>
+                        <li>Stockpiled 50,000 stone just to build a giant monument to himself that said "GG EZ"</li>
+                        <li>Created a fake alliance just to inside-raid the entire group (absolute brainrot move)</li>
+                        <li>Door camped the same player for 6 hours straight while eating pizza IRL</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+        <div class="container">
+            <h2>🎮 The Red + Rust Quiz 🎮</h2>
+            <p class="quiz-intro">Think you know Rust? Think you understand RedGamer's brainrot playstyle? Prove it! Take the ultimate Red + Rust quiz and get your certified gamer certificate. Only true chads will pass.</p>
+            
+            <div class="quiz-container">
+                <div id="quiz"></div>
+                <button id="submit">Submit Answer</button>
+                <div id="results"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 RedGamer's Rust Hub | No Loot Is Safe | Peak Brainrot Gaming</p>
+            <p>Rust™ is a trademark of Facepunch Studios. This is a fan site.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
